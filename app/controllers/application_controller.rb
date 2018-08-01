@@ -1,5 +1,5 @@
 require './config/environment'
-require './app/models/sample_model'
+require './app/models/Raleigh'
 
 class ApplicationController < Sinatra::Base
   configure do
@@ -7,7 +7,10 @@ class ApplicationController < Sinatra::Base
     set :views, 'app/views'
   end
 
-  get '/' do
+  get '/' do 
     return erb :index
-  end
+  end 
+  get '/raleigh' do 
+    return erb :Raleigh 
+  end 
 end
