@@ -12,5 +12,9 @@ class ApplicationController < Sinatra::Base
   end 
   get '/raleigh' do 
     return erb :Raleigh 
-  end 
+  end
+  
+  get '/chicago' do 
+    return erb :Chicago 
+  end
 end
