@@ -101,7 +101,7 @@ puts Miami.attraction
 class LA
     
     @@options = {
-        :food => ["Dan Tanas", "Guerrilla Taco", "Philippe The Original", "Newport Seafood Restaurant", "Jon and Vinny's"],
+        :food => ["Dan Tanas", "Guerrilla Taco", "Philippe The Original", "Newport Seafood Restaurant", "Jon and Vinny's", "The Apple Pan"],
         :attraction => ["Universal Studios Hollywood", "Griffith Park and Griffith Observatory", "Disneyland Resort", "Hollywood", "Santa Monica", "Natural History Museum"]
     }
     
