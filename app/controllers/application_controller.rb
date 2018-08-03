@@ -30,7 +30,7 @@ class ApplicationController < Sinatra::Base
    erb :LA  
   end
   
-  get '/Miami' do
+  get '/miami' do
     erb :Miami
   end
 end 
